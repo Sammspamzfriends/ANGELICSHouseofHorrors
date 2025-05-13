@@ -1,5 +1,5 @@
 {
-    "name": "Final Project V1",
+    "name": "Final Project V2",
     "description": "",
     "dependencies": {
         "device": "*"
@@ -8,7 +8,11 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "assets.json"
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
     ],
     "testFiles": [
         "test.ts"
@@ -20,5 +24,23 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "blocksprj",
+    "palette": [
+        "#000000",
+        "#FFFFFF",
+        "#ADADAD",
+        "#F0D524",
+        "#F0DFA3",
+        "#333333",
+        "#FFF6E5",
+        "#F4DCAE",
+        "#CCB17F",
+        "#8542A9",
+        "#501C6D",
+        "#B02121",
+        "#811212",
+        "#E5CDC4",
+        "#91463d",
+        "#000000"
+    ]
 }

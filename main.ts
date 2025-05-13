@@ -1,6 +1,9 @@
 function animateGlossophobia () {
 	
 }
+function SpawnANGELICS () {
+	
+}
 function setupArachnophobia () {
 	
 }
@@ -26,9 +29,6 @@ function setupApeirophobia () {
 	
 }
 function animateNyctophobia () {
-	
-}
-function SpawnMC () {
 	
 }
 function animateAstraphobiaLightning () {
