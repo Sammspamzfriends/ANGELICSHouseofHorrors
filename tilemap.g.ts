@@ -4,6 +4,20 @@ namespace myTiles {
     export const transparency16 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
     export const tile1 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile4 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile3 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile5 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile6 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile7 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile8 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile9 = image.ofBuffer(hex``);
 
     helpers._registerFactory("tilemap", function(name: string) {
         switch(helpers.stringTrim(name)) {
@@ -130,6 +144,25 @@ namespace myTiles {
 ................................................................................................................................................................
 ................................................................................................................................................................
 `, [myTiles.transparency16,myTiles.tile1], TileScale.Sixteen);
+            case "levelLOBBY":
+            case "level3":return tiles.createTilemap(hex`1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000070000000000000000000000000000000000000000000000000000020000000003000000000005000000070707000007070700000007070700000000000000000000000000000000000000000000000000000000000000000000000100000000040000000000060000000707070000070707000000070707000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000`, img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . 2 . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. 2 2 2 . . 2 2 2 . . . 2 2 2 . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. 2 2 2 . . 2 2 2 . . . 2 2 2 . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`, [myTiles.transparency16,myTiles.tile4,myTiles.tile3,myTiles.tile5,myTiles.tile6,myTiles.tile7,myTiles.tile9,myTiles.tile1], TileScale.Sixteen);
         }
         return null;
     })
@@ -139,6 +172,20 @@ namespace myTiles {
             case "transparency16":return transparency16;
             case "PlatformTile":
             case "tile1":return tile1;
+            case "Arachnophobia Door":
+            case "tile4":return tile4;
+            case "GlossophobiaDoor":
+            case "tile3":return tile3;
+            case "Scopophobia Door":
+            case "tile5":return tile5;
+            case "Astraphobia":
+            case "tile6":return tile6;
+            case "Nyctophobia door":
+            case "tile7":return tile7;
+            case "myTile":
+            case "tile8":return tile8;
+            case "Apeirophobia":
+            case "tile9":return tile9;
         }
         return null;
     })
